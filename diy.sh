@@ -13,5 +13,5 @@ git clone https://github.com/lisaac/luci-lib-docker package/luci-lib-docker
 git clone https://github.com/pymumu/luci-app-smartdns feeds/luci/applications/luci-app-smartdns
 svn checkout https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 svn checkout https://github.com/coolsnowwolf/lede/trunk/package/lean package/lean/
-rm -rf package/lean/luci-lib-docker package/lean/luci-app-dockerman package/lean/luci-theme-argon package/lean/luci-theme-netgear package/lean/
+rm -rf package/lean/luci-lib-docker package/lean/luci-app-dockerman package/lean/luci-theme-argon package/lean/luci-theme-netgear package/lean/frpc package/lean/luci-app-frpc
 cp ../mac80211.sh package/kernel/mac80211/files/lib/wifi/
