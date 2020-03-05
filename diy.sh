@@ -16,3 +16,6 @@ svn checkout https://github.com/coolsnowwolf/lede/trunk/package/lean package/lea
 rm -rf package/lean/luci-lib-docker package/lean/luci-app-dockerman package/lean/luci-theme-argon package/lean/luci-theme-netgear package/lean/frpc package/lean/luci-app-frpc
 cp ../mac80211.sh package/kernel/mac80211/files/lib/wifi/
 cp ../Makefile package/luci-app-openclash/
+git pull
+./scripts/feeds update -a
+./scripts/feeds install -a
