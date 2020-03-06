@@ -16,7 +16,4 @@ svn checkout https://github.com/vernesong/OpenClash/trunk/luci-app-openclash pac
 #rm -rf package/lean/luci-lib-docker package/lean/luci-app-dockerman package/lean/luci-theme-argon package/lean/luci-theme-netgear package/lean/frpc package/lean/luci-app-frpc
 sed -i 's/VHT80/VHT40/' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 sed -i 's/disabled=1/disabled=0/' package/kernel/mac80211/files/lib/wifi/mac80211.sh
-#cp ../Makefile package/luci-app-openclash/
-#git pull
-#./scripts/feeds update -a
-#./scripts/feeds install -a
+sed -i 's/\..\/..\/luci.mk/$(TOPDIR)\/feeds\/luci\/luci.mk/' package/luci-app-smartdns/Makefile
