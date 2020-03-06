@@ -15,6 +15,7 @@ git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 git clone https://github.com/lisaac/luci-app-dockerman package/luci-app-dockerman
 git clone https://github.com/lisaac/luci-lib-docker package/luci-lib-docker
 git clone https://github.com/lisaac/luci-plugin-samba package/luci-plugin-samba
+git clone https://github.com/lisaac/luci-app-diskman package/luci-app-diskman
 git clone https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
 git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic package/luci-app-unblockneteasemusic
 git clone https://github.com/kuoruan/luci-app-kcptun package/luci-app-kcptun
