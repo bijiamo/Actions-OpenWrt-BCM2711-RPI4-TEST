@@ -28,5 +28,5 @@ sed -i 's/VHT80/VHT40/' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 sed -i 's/disabled=1/disabled=0/' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 sed -i 's/\..\/..\/luci.mk/$(TOPDIR)\/feeds\/luci\/luci.mk/' package/luci-app-smartdns/Makefile
 sed -i 's/+luci +luci-base //' package/luci-app-clash/Makefile
-mkdir -p package/parted
-mv package/luci-app-diskman/Parted.Makefile package/parted/Makefile
+#mkdir -p package/parted
+#mv package/luci-app-diskman/Parted.Makefile package/parted/Makefile
