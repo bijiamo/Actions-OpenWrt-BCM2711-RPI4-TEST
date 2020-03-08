@@ -18,4 +18,4 @@ git clone https://github.com/frainzy1477/luci-app-clash package/luci-app-clash
 sed -i 's/VHT80/VHT40/' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 sed -i 's/disabled=1/disabled=0/' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 #sed -i 's/\..\/..\/luci.mk/$(TOPDIR)\/feeds\/luci\/luci.mk/' package/luci-app-smartdns/Makefile
-sed -i 's/+luci +luci-base +wget +iptables +coreutils-base64 +coreutils +coreutils-nohup +bash +ipset +libustream-openssl +libopenssl +openssl-util +curl +jsonfilter +ca-certificates/+wget +iptables +coreutils-base64 +coreutils +coreutils-nohup +bash +ipset +curl +jsonfilter +ca-certificates/' package/luci-app-clash/Makefile
+sed -i 's/+luci +luci-base +wget +iptables +coreutils-base64 +coreutils +coreutils-nohup +bash +ipset +libustream-openssl +libopenssl +openssl-util +curl +jsonfilter +ca-certificates/+wget +iptables +coreutils-base64 +coreutils +coreutils-nohup +bash +ipset +libustream-openssl +libopenssl +openssl-util +curl +jsonfilter +ca-certificates/' package/luci-app-clash/Makefile
